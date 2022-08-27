@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1098144840026",
+    "project_id": "hero-agent-app",
+    "storage_bucket": "hero-agent-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098144840026:android:c67c6a067da762f409db63",
+        "android_client_info": {
+          "package_name": "com.getheroapp.heroagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098144840026-bajcnvdtpmjpql2ouanpt3u7r4e6cc8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9F-vMFDSvgJwDh8E7D-3xvse7OmlI9b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098144840026-bajcnvdtpmjpql2ouanpt3u7r4e6cc8f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1098144840026-2b0b9a0s7o37thp9db5qd4aumvaofifk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.getheroapp.heroagent",
+                "app_store_id": "1559202850"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

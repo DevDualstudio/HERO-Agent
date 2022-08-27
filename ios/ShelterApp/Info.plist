@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Hero Agent</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This app uses the camera to allow you to take a profile picture.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app uses the location to inform the agent of your meeting point and to track companion trips.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app uses the location to inform the agent of your meeting point and to track companion trips.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app uses the location to inform the agent of your meeting point.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app uses the photo library to allow you to select a profile picture.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Futura-Bol.otf</string>
+		<string>Futura-BolObl.otf</string>
+		<string>Futura-Boo.otf</string>
+		<string>Futura-BooObl.otf</string>
+		<string>Futura-Dem.otf</string>
+		<string>Futura-DemObl.otf</string>
+		<string>Futura-ExtBol.otf</string>
+		<string>Futura-ExtBolObl.otf</string>
+		<string>Futura-Lig.otf</string>
+		<string>Futura-LigObl.otf</string>
+		<string>Futura-Med.otf</string>
+		<string>Futura-MedObl.otf</string>
+		<string>FuturaDCD-Boo.otf</string>
+		<string>FuturaDCD-Lig.otf</string>
+		<string>FuturaSC-Boo.otf</string>
+		<string>FuturaSC-Dem.otf</string>
+		<string>FuturaSC-Lig.otf</string>
+		<string>FuturaSC-Med.otf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
